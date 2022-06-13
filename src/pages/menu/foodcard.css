@@ -1,0 +1,97 @@
+.maincard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow:2px 8px 20px 5px rgb(0 0 0 / 10%);
+  background-color: #e8f6ef;
+  margin: 20px;
+  /* border: 1px solid #e8f6ef; */
+  border-radius: 10px;
+  /* font-size: 12px; */
+}
+.mainmenu {
+  background-color: #d9eeec;
+}
+.mainmenu > h1 {
+    padding: 13px;
+    font-size: 35px;
+  text-align: center;
+  color: #d9eeec;
+  background-color:  #00cc99;
+}
+
+.foodcontent > p::-webkit-scrollbar {
+  display: none;
+}
+.foodcontent > p {
+  height: 150px;
+  overflow: scroll;
+  font-size: 15px;
+  margin:10px;
+}
+
+.foodimg {
+  padding: 0%;
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px 10px 0px 0px;
+}
+.menulist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menulist >h2{
+    position: absolute;
+    margin:10px;
+
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.nav-card > h2{
+   
+        margin-right: 40px;
+        font-size:18px;
+}
+.navcard > h3{
+    font-size: 15px;
+}
+ .add {
+    background-color: #e92989bd;
+    padding: 8px 10px;
+    width: 105px;
+    height: 30px;
+    border: 1px solid #e92989bd;
+    margin-bottom: 20px ;
+    border-radius: 5px;
+}
+ .buy {
+    background-color: #44facc;
+    padding: 8px 10px;
+    width: 65px;
+    height: 30px;
+    border: 1px solid #44facc;
+    margin-bottom: 20px ;
+    border-radius: 5px;
+}
+.buttons >button{
+    transition: 0.5s;
+}
+.buttons >button:hover{
+    transform: scale(1.2);
+}
+
+.cur-icon >svg {
+  font-size: 16px;
+}
